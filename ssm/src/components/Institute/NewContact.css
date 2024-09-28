@@ -1,0 +1,40 @@
+.icon-flag {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px; 
+}
+
+.header-icons .header {
+  background-color: #ee7614;
+  padding: 10px 0;
+}
+
+.header-icons .t_text1 {
+  color: white;
+  text-decoration: none;
+}
+
+.header-icons .t_text1 .icon {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.header-icons .icon-link {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+}
+
+.header-icons .icon-link:hover {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.header-icons .icon-link span {
+  margin-left: 8px;
+}

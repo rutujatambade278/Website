@@ -1,0 +1,28 @@
+.Card {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .Mernstack-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .course-info {
+    text-align: center;
+  }
+  
+  .skills-toggle {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .toggle-btn {
+    margin: 10px;
+  }
+  
+  .toggle-btn.active {
+    font-weight: bold;
+  }
+  

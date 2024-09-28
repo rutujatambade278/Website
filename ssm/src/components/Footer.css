@@ -1,0 +1,24 @@
+
+.footerbg{
+   background: rgb(255,145,77);
+background: linear-gradient(90deg, rgba(255,145,77,1) 1%, rgba(255,145,77,1) 17%, rgba(255,145,77,1) 86%, rgba(255,145,77,1) 100%);
+
+ background: rgb(244, 242, 241);
+background: linear-gradient(90deg, rgba(255,145,77,1) 1%, rgba(255,145,77,1) 17%, rgba(255,133,77,1) 86%, rgba(255,133,77,1) 100%);
+color: #ffffff !important;
+background-color: #F05A28 !important;
+}
+.footerhr {  
+    height: 4px;  
+    background-color:white;  
+    border: none;  
+}  
+.ftextcolor{
+    color: #ffffff;
+}
+.footerc2{
+    background-color: #FF914D;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  
+}

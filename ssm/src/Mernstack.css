@@ -1,0 +1,320 @@
+/* Mernstack.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .left-side {
+    flex: 1;
+    padding: 20px;
+    background-color: #e8f0f8;
+    color: #0e0000;
+    font-size: larger;
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-side h1 {
+    padding-top: 50px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .enroll-button, .brochure-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .enroll-button {
+    background-color: #1f5e95;
+    color: white;
+  }
+  
+  .brochure-button {
+    background-color: #1f5e95;
+    color: white;
+  }
+  
+
+  
+  .key-highlights {
+    margin-bottom:40px;
+    
+  }
+  
+  .key-highlights h2 {
+    font-size: 2.5em;
+    justify-content: center;
+   text-shadow: #666;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .highlight-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .highlight-item {
+    flex: 1 1 calc(25% - 20px);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .highlight-item:hover {
+    transform: scale(1.05);
+    box-shadow: #c76666;
+  }
+  
+  .highlight-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .mern-card {
+    text-align: center; /* Center aligns all text content */
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .mern-card h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mern-card p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stars svg {
+    color: gold;
+    font-size: 1.2rem;
+    margin-right: 0.2rem;
+  }
+  
+  
+  .mern-card .enroll-now {
+    margin-top: 20px;
+  }
+  
+  .enroll-now-buttons-4, .enroll-now button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1f5e95;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  .course-overview-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .course-overview {
+    flex: 1;
+    padding: 20px;text-align: center;
+  }
+  
+  .skills-gain {
+    flex: 1;
+    padding: 20px;
+  }
+  .Card {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .Mernstack-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-info {
+    text-align: center;
+  }
+  
+  .course-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .course-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-toggle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .toggle-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .toggle-btn.active {
+    background-color: #0056b3;
+  }
+  
+  .toggle-btn:not(.active):hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  .course-overview h2, .skills-gain h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #191478;
+  }
+  
+  .course-overview p, .skills-gain {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #060000;
+    text-align: center;
+  }
+  
+  .skills-gain li {
+    background-color: #e8f0f8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .course-eligibility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; /* Adjust as needed */
+  }
+  
+  .eligibility {
+    flex: 1;
+  }
+  
+  .eligibility h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .eligibility h5 {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .images {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .images img {
+    width: 100%; /* Adjust image width as needed */
+    max-width: 400px; /* Example max-width */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center image horizontally */
+  }
+  
+  .faq-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .faq-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .faq-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .faq-content {
+    flex: 2;
+    margin-left: 20px;
+  }
+  
+  .faq-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-button {
+    font-weight: bold;
+  }
+  
+  .accordion-body {
+    text-align: left;
+  }
+  

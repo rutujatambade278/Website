@@ -1,0 +1,164 @@
+.about-us {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.background-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 5%;
+  padding-bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+ 
+  padding: 20px; /* Optional: adds padding around the text */
+  border-radius: 10px; /* Optional: rounds the corners of the text background */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-overlay h1 {
+  color: white;
+  font-family: 'Arial', sans-serif; /* Change this to the desired font */
+  font-weight: bold;
+  font-size: 4rem; /* Adjust size as needed */
+  text-transform: uppercase; /* Makes the text uppercase */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Heading Animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.text-center {
+  animation: slideInFromLeft 1.5s ease-in-out;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff; /* White color for the heading text */
+ }
+
+/* Paragraph Animation */
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.highlight-text {
+  font-size: 19px;
+  line-height: 1.6;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.highlight-text p {
+  margin-bottom: 10px;
+  position: relative;
+  
+}
+
+.check-icon {
+  position: absolute;
+  left: -25px;
+  top: 4px;
+}
+
+  .mission-card, .vision-card, .review-card, .why-enroll-card {
+    background-color: #ffffff; /* White background for cards */
+    
+background: radial-gradient(circle, rgb(167, 150, 231) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px; /* Rounded corners for cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .mission-card, .vision-card{
+    background:  rgb(238,174,202); 
+    padding-left: 30%;
+  }
+ .shadow mission-card {
+  padding-left: 30%;
+ }
+  
+  .mission-card:hover, .vision-card:hover, .review-card:hover, .why-enroll-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    padding-left: 30px;
+  }
+  
+  .text-center {
+    color: #e64c14; /* Dark text color for headings */
+  }
+  .paragraph{
+    color: #000000;
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+  p {
+    color: #000000; /* Medium dark text color for paragraph */
+  }
+  
+  .review-card {
+    margin-bottom: 1rem;
+  }
+  
+  .review-carousel .carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .why-enroll-card {
+    margin-top: 2rem;
+   
+  }
+  
+  .text-center mb-5{
+    color:#f0eeee;
+  }
+  .text-wrap {
+    white-space: normal; /* Ensures text will wrap */
+    word-wrap: break-word; /* Breaks long words to fit the container */
+    word-break: break-word; /* Ensures words break inside the container */
+    overflow-wrap: break-word; /* Prevents text from overflowing the container */
+    text-align: left;
+  }

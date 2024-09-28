@@ -1,0 +1,68 @@
+/* BatchDetails.css */
+
+/* Style for the main container */
+.container {
+  margin-top: 20px;
+}
+
+/* Style for the table */
+.table {
+  width: 100%;
+}
+
+/* Style for table headers */
+.table thead th {
+  text-align: center;
+}
+
+/* Style for table body rows */
+.table tbody td {
+  text-align: center;
+}
+
+/* Style for modal dialog */
+.modal-dialog {
+  max-width: 800px; /* Adjust max width as needed */
+}
+
+/* Style for modal content */
+.modal-content {
+  border-radius: 0; /* Remove border radius if not desired */
+}
+
+/* Style for modal header */
+.modal-header {
+  background-color: #007bff;
+  color: #ffffff;
+  border-bottom: none;
+}
+
+/* Style for modal title */
+.modal-title {
+  margin-right: auto; /* Align modal title to the left */
+}
+
+/* Style for modal body */
+.modal-body {
+  padding: 20px;
+}
+
+/* Style for form group labels */
+.form-group label {
+  font-weight: bold; /* Example: make form group labels bold */
+}
+
+/* Style for form controls */
+.form-control {
+  margin-bottom: 10px;
+}
+
+/* Style for modal footer */
+.modal-footer {
+  border-top: none; /* Remove top border of modal footer */
+}
+
+/* Style for buttons in modal footer */
+.modal-footer button {
+  min-width: 120px; /* Example: Set minimum width for buttons */
+}

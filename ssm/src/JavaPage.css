@@ -1,0 +1,326 @@
+/* Container for the content */
+.content {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4fbfd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings styles with animations */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #ee660b;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 2s ease-out; /* Apply slide-in animation */
+}
+
+.animated-heading {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+    animation: fadeIn 2s ease-out; /* Apply fade-in animation */
+}
+
+/* Course info section */
+.course-info {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.course-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.course-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Paragraph Animation */
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Enroll now button styles */
+.enroll-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+}
+
+.enroll-now-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f5e95;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.enroll-now-button:hover {
+    background-color: #0056b3;
+}
+
+/* Java card styles */
+.java-card {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.java-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.java-card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.java-card .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.java-card .rating p {
+    margin: 0 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.java-card .stars {
+    color: #f39c12;
+}
+
+.java-card .actions {
+    margin-top: 20px;
+}
+
+.java-card .actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.java-card .actions button:hover {
+    background-color: #0056b3;
+}
+
+/* Java course overview */
+.java-course-overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.course-overview-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; /* Correct the percentage to px */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.course-overview,
+.skills-gain {
+    flex: 1;
+    padding: 20px;
+}
+
+.skills-gain {
+    color: #fd0606;
+}
+
+.course-overview h2,
+.skills-gain h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: hsl(0, 97%, 51%);
+}
+
+.course-overview p,
+.skills-gain p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #060000;
+}
+
+.skills-gain li {
+    background-color: #e8f0f8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Course eligibility */
+.course-eligibility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.eligibility {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.eligibility h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.images {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.images img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Key highlights */
+.key-highlights {
+    margin-bottom: 30px;
+}
+
+.key-highlights h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.highlight-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.highlight-item {
+    flex: 1 1 calc(25% - 20px);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.highlight-item:hover {
+    transform: scale(1.05);
+}
+
+.highlight-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Card heading */
+.Card h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #555;
+    color: #007bff;
+}
+
+/* Skills toggle */
+.skills-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.toggle-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+}
+
+.toggle-btn.active {
+    background-color: #0056b3;
+}
+
+/* Skills box */
+.skills-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Java card syllabus */
+.java-card-syllabus {
+    background-color: #ccc;
+    box-sizing: content-box;
+    padding: 10px;
+    height: 80%;
+    width: 100%; /* Changed from 150% to 100% to fit within container */
+    justify-content: center;
+    margin-right: auto;
+}

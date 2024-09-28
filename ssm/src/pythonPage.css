@@ -1,0 +1,252 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #f9f2f2f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+  background-color: #e8f0f8;
+  color: #0e0000;
+  font-size: larger;
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side h1 {
+  padding-top: 50px;
+  font-size: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Adjust as necessary 
+} */
+
+/* Styles for the Enroll Now button */
+.enroll-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.enroll-button:hover {
+  background-color: #0056b3; /* Darker shade of Bootstrap primary color */
+  transform: translateY(-2px);
+}
+
+.enroll-button:active {
+  background-color: #003d80; /* Even darker shade for active state */
+  transform: translateY(2px);
+}
+
+
+.key-highlights {
+  margin-bottom: 30px;
+}
+
+.key-highlights h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.highlight-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.highlight-item {
+  flex: 1 1 calc(25% - 20px);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.highlight-item:hover {
+  transform: scale(1.05);
+}
+
+.highlight-item p {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.python-card {
+  background-color: #e8f0f8;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1400px;
+  text-align: center;
+}
+
+.python-card h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  color:  hwb(9 2% 4%);
+}
+
+.python-card p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #0c0000;
+}
+
+.python-card .rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.python-card .rating p {
+  margin: 0 5px;
+  font-size: 16px;
+  color: #0c0000;
+}
+
+.python-card .stars {
+  display: flex;
+  align-items: center;
+}
+
+.python-card .stars svg {
+  color: #ffd700;
+  margin-right: 5px;
+}
+
+.python-card .enroll-now {
+  margin-top: 20px;
+}
+
+.enroll-now-buttons-4, .enroll-now button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1f5e95;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-now-buttons-4:hover, .enroll-now button:hover {
+  background-color: #163d6a;
+}
+.course-overview-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.course-overview {
+  flex: 1;
+  padding: 20px;
+}
+.course-overview.h2 ,.skills-gain.h2{
+  color:  hwb(9 2% 4%);
+}
+.skills-gain {
+  flex: 1;
+  padding: 20px;
+}
+
+.course-overview h2, .skills-gain h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color:  hwb(9 2% 3%);
+}
+
+.course-overview p, .skills-gain {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #060000;
+}
+
+
+.skills-gain li {
+  background-color: #e8f0f8;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: left;
+
+}
+.course-eligibility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px; /* Adjust as needed */
+}
+
+.eligibility {
+  flex: 1;
+}
+
+.eligibility h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.eligibility h5 {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.images {
+  flex: 1;
+  text-align: center;
+}
+
+.images img {
+  width: 100%; /* Adjust image width as needed */
+  max-width: 400px; /* Example max-width */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center image horizontally */
+}
+

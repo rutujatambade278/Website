@@ -1,0 +1,18 @@
+.carousel-image {
+    max-height: 600px; /* Adjust as necessary */
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    display: none; /* Hides the headings and descriptions */
+  }
+  
+  /* You can also add animations or other styles as needed */
+  

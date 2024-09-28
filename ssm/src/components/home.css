@@ -1,0 +1,35 @@
+.CA1:hover,.CA2:hover,.CA3:hover,.CA4:hover,.CA5:hover,.CA6:hover {
+    background-color:#F05A28 !important;
+    color: #ffffff !important;
+    }
+    /* .CA_1:hover{
+        color: #0078C9 !important;
+      
+    } */
+    .img1 {
+       
+        animation: slide-in1 2s ease forwards;
+       
+      }
+      .F1 {
+        /* color: #ffffff; */
+        text-align: center;
+        /* background-color: #F05A28; */
+        
+     }
+     .F2 {
+        border-radius: 15px; /* Customize the border radius */
+        /* background-color: #F05A28; */
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+         color: #0078C9;
+     }
+     .firstletter{
+        font-weight: bold;
+        font-size: 40px;
+     }
+     .firstletter2{
+        font-weight: bold;
+        font-size: 20px;
+     }
